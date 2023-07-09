@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="profo.css">
+<style>
+    
+    </style>
+</head>
+<body>
+    <div class="header" id="header">
+        Xuanzhen Lao
+    </div>
+    <div class="header" id="header">
+        <a href="frog@gmail.com">Email</a>
+    </div>
+    <div class="header" id="header">
+        +1 (530)123-1234
+    </div>
+
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#projectdetails">Project details</a>
+        <a href="#skills">Skills</a>
+        <a href="#recommendations">Recommendations</a>
+    </div>
+
+
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+    <div class="about-me">
+        <img src="miao.jpg" alt="Profile Picture">
+        <div class="profile-info">
+            <h2>Hi, I am Xuanzhen</h2>
+            <p>I'm a senior student and I'm just on summer vacation. hope to learn something new</p>
+        </div>
+    </div>
+    </section>
+
+
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+    <h1>
+        Skills
+    </h1>
+    <hr>
+    <div class="container">
+        <div class="box">
+            <p>
+                C++<br>
+                2 years experience
+            </p>
+        </div>
+        <div class="box">
+            <p>
+                HTML<br>
+                .08 years experience
+            </p>
+        </div>
+        <div class="box">
+            <p>
+                CSS<br>
+                .08 years experience
+            </p>
+        </div>
+    </div>
+
+    </section>
+
+
+    <!--==================== PROJECT IN MIND ====================-->
+    <section class="projectSection">
+        <h1>
+            Project
+        </h1>
+    </section>
+    <hr>
+    <section id="projTitle">
+        iMood
+    </section>
+    <section id="projDescribe">
+        - Developed and designed software to relieve stress through features like white noise, stress relief games, and meditation sessions.
+    </section>
+    <section id="projTitle">
+        Binary Calculator Project
+    </section>
+    <section id="projDescribe">
+        - Developed a standalone 32-bit x86 binary calculator using the GNU Assembler (GAS) language.<br>
+    </section>
+    <section id="projTitle">
+        Digital Dice Device Software for Basements and Byters (BnB) Game
+    </section>
+    <section id="projDescribe">
+        Developed PIC12F508 microprocessor-compatible digital dice software for the BnB role-playing game.
+    </section>
+    <hr>
+
+
+
+    <!--==================== Recommendations ====================-->
+    <section id="Recommendations">
+        <h2>Recommendations</h2>
+        <div style="clear:both;"></div>
+            <div class="all_recommendations" id="all_recommendations">
+            <div class="recommendation">
+                <span>&#8220;</span>
+                Xuanzhen is a very quick learner.
+                <span>&#8221;</span>
+            </div>
+            <div class="recommendation">
+                <span>&#8220;</span>
+                Working with Xuanzhen has been an awesome experience.
+                <span>&#8221;</span>
+            </div>
+            <div class="recommendation">
+                <span>&#8220;</span>
+                Xuanzhen is a nice person.
+                <span>&#8221;</span>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+        <div class="flex_center">
+            <fieldset>
+                <legend class="introduction">
+                    Leave a Recommendation
+                </legend>    
+                <input type="text" placeholder="Name (Optional)"> <br/>
+                <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+                <div class="flex_center">
+                    <button id="recommend_btn" onclick="addRecommendation()">
+                        Submit
+                    </button>
+            </div>
+        </fieldset>
+    </div>
+    </section>
+
+    <div class="iconbutton">
+    <a href="#home">        
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+        <img src="images.png/checkmark--outline.svg"/>
+        <h3>Thanks for leaving a recommendation !</h3>
+        <button >Ok</button>
+    </div>
+
+    <!--==================== SCRIPT ====================-->
+
+    <script src="./script.js"></script>
+
+
+
+</body>
+</html>

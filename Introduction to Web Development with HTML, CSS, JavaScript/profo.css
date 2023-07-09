@@ -1,0 +1,281 @@
+.header{
+    color: blueviolet;
+    font-size: 26px;
+    line-height: 48px;
+    text-indent: 56px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+#name {
+    font-size: 2em;
+    padding: 20px;
+  }
+
+.navbar {
+    background-color: #e295f0;
+    overflow: hidden;
+  }
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s; /* adds smooth transition effect */
+  }
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    font-weight: bold;
+  }
+
+.mail{
+    color: blueviolet;
+    font-size: 25px;
+    text-indent: 26px;
+    line-height: 48px;
+    text-indent: 56px;
+
+}
+.about-me {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px; /* adjust this value to add space between the image and text */
+    font-size: 26px;
+}
+
+.about-me img {
+    width: 400px;
+    height: 700px;
+    object-fit: contain;
+    margin: 80px; 
+}
+
+
+h1,h2{
+    color: blueviolet;
+    font-size: 46px;
+    text-indent: 26px;
+    line-height: 26px;}
+    
+
+#projTitle{
+    color: black;
+    font-size: 26px;
+    text-indent: 36px;
+    font-weight: bold;
+    line-height: 70px;}    
+
+#projDescribe{
+    color: black;
+    font-size: 26px;
+    text-indent: 56px;} 
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px; 
+    height: 200px; 
+    border: 5px solid rgb(243, 202, 245); 
+    padding: 20px;
+    background-color: rgba(230, 190, 239, 0.478);
+    padding: 20px;
+    box-shadow:
+       inset 0 -3em 3em rgba(215, 153, 235, 0.1),
+             0 0  0 2px rgb(215, 180, 231),
+             0.3em 0.3em 1em rgba(185, 78, 224, 0.3);
+    line-height: 48px;
+    }
+    
+      
+.container {
+    display: flex;
+    justify-content: space-around; /* 这会使得元素之间的空间均匀分布 */
+    align-items: center;
+    }
+
+p{
+    font-size: 24px;
+    text-align:center;
+    line-height: 48px;
+    }
+
+#home {
+    background-color:  #65cbfc;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    height: 5mm;
+   }
+
+   h2 {
+    text-align: center;
+    float: left;
+    color: blueviolet;
+    font-size: 46px;
+    text-indent: 26px;
+    line-height: 26px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+
+  .all_recommendations {
+    display: flex;
+    align-items: center;
+    margin-left: 1in;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding: 20px;
+  }
+  
+  .recommendation {
+    font-style: italic;
+    text-align: left;
+    width: 21.875rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+    border:1px solid gray;
+    font-size: 18px;
+    height:150px
+  }
+  
+  .recommendation span {
+    color: #7600bc;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Scroll to Top Button */
+  
+  .iconbutton{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #7600bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+    
+  }
+  
+  /* Form Pop-up */
+  
+  .popup {
+    width:400px;
+    background-color: #e8bcf0;
+    border-radius: 3mm;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: fixed;
+    /* padding: 30px; */
+    visibility: hidden;
+  }
+  
+  .popup img {
+    padding-top: 20px;
+  }
+  
+  .popup button {
+    background-color: #fff;
+    border: 1px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    margin-left: 25%;
+  }
+  
+  .popup button:hover {
+    background-color: #fff;
+    border: 2px solid #7600bc;
+    color: #7600bc;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+  
+  /* Recommendation Form */
+  
+  input, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: 30px;  
+    width:100%;
+  }
+  
+  fieldset {
+    display: flexbox;
+    align-content: center;
+    justify-content: center;  
+    padding: 25px; 
+    margin-left: 50px; 
+    margin-right: 50px;   
+    border: thin solid white;
+    width: 50%;
+  }
+  
+  /* Buttons */
+  
+  button {
+    background-color: #fff;
+    border: 1px solid #7600bc;
+    color: #7600bc;
+    display: block;
+
+    border-radius: 6px;
+    text-align: center;
+    justify-content: center; 
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color: #7600bc;
+    border: 1px solid #7600bc;
+    color: #fff;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .introduction {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+    
+      
